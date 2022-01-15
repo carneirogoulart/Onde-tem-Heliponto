@@ -48,7 +48,7 @@ server <- function(input, output,session) {
       }
       
       # pegar latitude e longitude da localização desejada
-      register_google(key = "AIzaSyBcRZQqZGuK-yiemdf0r37jUFktYStUY7A")
+      register_google(key = "INSIRA AQUI SEU API GOOGLE")
       
       localiza = as.data.frame(geocode(isolate(input$localizacao_manual)))
       
